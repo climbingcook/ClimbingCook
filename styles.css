@@ -14,7 +14,8 @@
   flex-wrap: wrap;
   justify-content: center;
 }
-.recipeMain{
+.recipeHeader{
+  width: 100vw;
 
 }
 .recipeAlt{
