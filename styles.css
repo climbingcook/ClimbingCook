@@ -14,20 +14,33 @@
   flex-wrap: wrap;
   justify-content: center;
 }
+.altBox{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-flow: row-wrap;
+  width: 40vw;
+}
 .recipeHeader{
   width: 100vw;
 
 }
 .recipeAlt{
-  width: 20vw;
-  padding: 1vw;
+  width: 45%;
+  height: 45%;
+  overflow: hidden;
 }
-
-.recipeMain img{
+.recipeMain{
   width: 40vw;
 }
+.recipeMain img{
+  width: 100%;
+  height: auto;
+}
+
+
 .recipeAlt img{
-  width: 18vw;
+  width: 45%;
 }
 
 
