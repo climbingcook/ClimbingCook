@@ -1,81 +1,86 @@
 :root {
-  --main-bg-color: #d7d9db;
-  --main-text-color: #331E36;
-  --aux-color-light: #6EA4BF;
-  --aux-color-dark: #41337A;
-  --main-white: #f9f9f9;
-}
-
-
-.recipeContainer{
-/*   width: 50vw; */
-  display: flex;
-  flex-flow: row-wrap;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.altBox{
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-flow: row-wrap;
-  width: 40vw;
-}
-.recipeHeader{
-  width: 100vw;
-
-}
-.recipeAlt{
-  width: 45%;
-  height: 45%;
-  overflow: hidden;
-}
-.recipeMain{
-  width: 40vw;
-}
-.recipeMain img{
-  width: 100%;
-  height: auto;
-}
-
-
-.recipeAlt img{
-  width: 45%;
-}
-
-
-body {
-                background-color:var(--main-bg-color);
-                color:var(--main-text-color);
-                text-align:center;
-              }
-
-/* Add a black background color to the top navigation */
-.topnav {
-background-color: var(--main-bg-color);
-border-bottom: 3px solid var(--main-text-color); 
-  overflow: hidden;
-}
-
-/* Style the links inside the navigation bar */
-.topnav a {
-  float: left;
-  color: var(--main-text-color);
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  border-radius:5px 5px 0px 0px;
-}
-
-/* Change the color of links on hover */
-.topnav a:hover {
-  background-color: var(--aux-color-light);
-  color: var(--main-white);
-}
-
-/* Add a color to the active/current link */
-.topnav a.active {
-  background-color: var(--aux-color-dark);
-  color: var(--main-white);
-}
+    --main-bg-color: #d7d9db;
+    --main-text-color: #331E36;
+    --aux-color-light: #6EA4BF;
+    --aux-color-dark: #41337A;
+    --main-white: #f9f9f9;
+  }
+  
+  
+  .recipeContainer{
+    display: flex;
+    flex-flow: row-wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 50vh;
+    width: 100vw;
+  }
+  .altBox, .recipeMain{
+      height: 45vh;
+  }
+  .altBox{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-flow: row-wrap;
+    width: 40vw;
+  }
+  .recipeHeader{
+    width: 100vw;
+    height: 5vh;
+  
+  }
+  .recipeAlt{
+    width: 45%;
+    height: 45%;
+    overflow: hidden;
+  }
+  .recipeMain{
+    width: 40vw;
+  }
+  .recipeMain img{
+    width: 100%;
+    height: auto;
+  }
+  
+  
+  .recipeAlt img{
+    width: 45%;
+  }
+  
+  
+  body {
+                  background-color:var(--main-bg-color);
+                  color:var(--main-text-color);
+                  text-align:center;
+                }
+  
+  /* Add a black background color to the top navigation */
+  .topnav {
+  background-color: var(--main-bg-color);
+  border-bottom: 3px solid var(--main-text-color); 
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: var(--main-text-color);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius:5px 5px 0px 0px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: var(--aux-color-light);
+    color: var(--main-white);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: var(--aux-color-dark);
+    color: var(--main-white);
+  }
