@@ -11,7 +11,8 @@ body {
     background-color: var(--main-bg-color);
     color: var(--main-text-color);
     text-align: center;
-    margin-top: 73px;
+    margin: 73px 0 0 0;
+
 }
 
 .altText,
@@ -43,6 +44,7 @@ body {
     /*this centers the div horizontally in the body, need width for it to work*/
     display: grid;
     width: 80vw;
+  margin-bottom: 10vh;
 }
 
 .recipeHeader {
@@ -191,4 +193,45 @@ body {
     .hamburger {
         display: none;
     }
+}
+
+
+#about{
+
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+    justify-content: space-around;
+  width: 100vw;
+  height: 50vh;
+  color: var(--main-white);
+   background: url(https://www.melskitchencafe.com/wp-content/uploads/french-bread3.jpg) 50% 50% no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  left:0;
+}
+
+#about p{
+  font-size: 1.15rem;
+  width: 75vw;
+  margin:0 auto;
+}
+#contactWrapper{
+  width: 50vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  
+}
+#contactWrapper a{
+text-decoration: none;
+  color:var(--main-white);
+  transition: .5s;
+  font-weight: bold;
+  
+}
+
+#contactWrapper a:hover{
+  color:var(--main-text-color);
 }
